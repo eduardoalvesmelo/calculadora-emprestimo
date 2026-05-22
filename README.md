@@ -23,7 +23,7 @@ Uma aplicação Full-Stack desenvolvida para a simulação de empréstimos sob o
 ## 📖 Sobre o Projeto
 O sistema substitui planilhas complexas de controle financeiro por uma interface web amigável e segura. Ele valida instantaneamente os dados de entrada (prazos, carências e taxas) e consulta um motor de cálculo back-end robusto para gerar o fluxo financeiro exato até a quitação do contrato.
 
-*(Adicione aqui uma imagem ou GIF do projeto rodando)* > `![Demonstração do Sistema](./docs/demo.gif)`
+`![Demonstração do Sistema](./docs/video1.mp4)`
 
 ---
 
