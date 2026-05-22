@@ -104,6 +104,9 @@ cd calculadora-emprestimo-ui
 npm run test
 ````
 # Algumas imagens
+## Calculadora funcionando
 <img width="1165" height="920" alt="tela funcionando" src="https://github.com/user-attachments/assets/60ee69f6-e2a6-4b50-8473-2ec5e4fc29e2" />
+## Testes unitarios no frontend
 <img width="863" height="349" alt="testes unitarios frontend" src="https://github.com/user-attachments/assets/857f221a-4b6d-4522-abe8-b5960cfca723" />
+## Testes unitarios no backend
 <img width="1747" height="337" alt="testes unitarios backend" src="https://github.com/user-attachments/assets/2bd3d036-c683-4ca7-91d1-2069f461afdd" />
