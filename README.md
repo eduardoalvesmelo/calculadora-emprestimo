@@ -16,7 +16,6 @@ Uma aplicação Full-Stack desenvolvida para a simulação de empréstimos sob o
 3. [Regras de Negócio](#-regras-de-negócio)
 4. [Como Executar](#-como-executar)
 5. [Testes Automatizados](#-testes-automatizados)
-6. [Documentação da API](#-documentação-da-api)
 
 ---
 
@@ -70,7 +69,7 @@ cd calculadora-emprestimo-api
 ./mvnw spring-boot:run
 A API ficará disponível em http://localhost:8080.
 ````
-2. Rodando a Interface (Front-end)
+### 2. Rodando a Interface (Front-end)
 Abra um novo terminal e execute:
 
 Bash
@@ -104,7 +103,3 @@ Bash
 cd calculadora-emprestimo-ui
 npm run test
 ````
-
-## 📚 Documentação da API
-A documentação interativa dos endpoints é gerada automaticamente pelo Swagger. Com o back-end rodando, acesse:
-👉 http://localhost:8080/swagger-ui/index.html
