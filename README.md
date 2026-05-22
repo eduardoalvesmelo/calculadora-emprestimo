@@ -68,3 +68,43 @@ cd calculadora-emprestimo-api
 
 # Execute o projeto com o Maven Wrapper
 ./mvnw spring-boot:run
+A API ficará disponível em http://localhost:8080.
+````
+2. Rodando a Interface (Front-end)
+Abra um novo terminal e execute:
+
+Bash
+# Entre na pasta do front-end
+cd calculadora-emprestimo-ui
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
+npm run dev
+A aplicação ficará disponível no navegador (geralmente em http://localhost:5173).
+
+## 🧪 Testes Automatizados
+O front-end possui uma suíte de testes de comportamento (E2E e Unitários) configurada com Vitest para garantir a integridade da UI sem depender do back-end ligado.
+
+Os testes validam:
+
+Renderização correta dos inputs padrão.
+
+Bloqueio dinâmico ao inserir datas inválidas no contrato.
+
+Bloqueio dinâmico para períodos de carência inconsistentes.
+
+Chamada correta da API e renderização estruturada da tabela de resultados.
+
+Para rodar os testes:
+
+Bash
+````
+cd calculadora-emprestimo-ui
+npm run test
+````
+
+## 📚 Documentação da API
+A documentação interativa dos endpoints é gerada automaticamente pelo Swagger. Com o back-end rodando, acesse:
+👉 http://localhost:8080/swagger-ui/index.html
